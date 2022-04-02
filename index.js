@@ -11,8 +11,8 @@ function overlayify(image_path, x, y) {
 			// for every pixel
 			for (let px = 0; px < canvas.bitmap.width; px++) {
 				for (let py = 0; py < canvas.bitmap.height; py++) {
-					let col = canvas.getPixelColor(px, py) - 255;
-					if (col < 0) col = 0;
+					let col = canvas.getPixelColor(px, py);
+					col = col - (col % 0x100);
 					if (py % 3 !== 1 || px % 3 !== 1) {
 						canvas.setPixelColor(col, px, py);
 					}
