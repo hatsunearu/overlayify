@@ -9,6 +9,10 @@
   "keywords": [
     "r/place"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/alifurkany/overlayify"
+  },
   "author": "Ali Furkan Yıldız",
   "license": "GPL-3.0",
   "dependencies": {
