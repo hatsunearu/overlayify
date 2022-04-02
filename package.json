@@ -1,0 +1,17 @@
+{
+  "name": "overlayify",
+  "version": "1.0.0",
+  "description": "make an image r/place voeraly",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "r/place"
+  ],
+  "author": "Ali Furkan Yıldız",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "jimp": "^0.16.1"
+  }
+}
