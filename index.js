@@ -10,8 +10,8 @@ const palette = [
 
 function overlayify(image_path, x, y) {
 	return new Promise((resolve, reject) => {
-		// create 2000x1000 canvas
-		let canvas = new Jimp(2000, 1000, 0x00000000);
+		// create 2000x2000 canvas
+		let canvas = new Jimp(2000, 2000, 0x00000000);
 		Jimp.read(image_path).then((im) => {
 			canvas.composite(im, x, y);
 			canvas.resize(6000, 3000, Jimp.RESIZE_NEAREST_NEIGHBOR);
