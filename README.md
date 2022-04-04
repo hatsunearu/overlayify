@@ -15,3 +15,6 @@ npm install
 ```bash
 node . <image> <x> <y>
 ```
+
+x and y corresponds to the destination coordinate of the top left pixel
+
